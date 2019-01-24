@@ -21,3 +21,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/welcome',function(){
     return 'hello';
 });
+Route::get('/hello',function(){
+    return 'ok you win';
+});
+
